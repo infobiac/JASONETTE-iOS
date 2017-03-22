@@ -65,16 +65,16 @@ Here's a brief walkthrough of how the project is structured:
 
 ### What files you will be touching
 
-####User
+#### User
 In most cases, the only thing you will ever need to touch is the `Config/settings.plist` file. This is where you set the main url your app will launch from.
   - But even this can be automatically done using the [Setup command](https://jasonette.github.io/documentation/#step-2-setup), which means **you will never need to touch anything inside XCode** to build an app.
 
-####Advanced
+#### Advanced
 Sometimes you may want to write an [extension](https://jasonette.github.io/documentation/advanced/#extension). In this case you may need to deal with:
   - `Action`: To write action extension
   - `View/Component`: To write UI component extension
 
-####Guru
+#### Guru
 If you find a bug **anywhere in the code**, or have any improvements anywhere else, please feel free to:
   1. Fork the `develop` branch
   2. Create a feature branch
